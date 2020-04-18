@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "host": "192.168.1.20",
+  "port": 3306,
+  "username": "gobarber",
+  "password": "gobarber",
+  "database": "GoBarber",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
